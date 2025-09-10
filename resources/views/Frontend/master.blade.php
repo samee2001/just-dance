@@ -3,10 +3,10 @@
 
 <head>
     <meta charset="utf-8">
-    <title>JustDance</title>
+    <title>Just Dance Dancing Academy</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+    <meta content="Just Dance, Dancing Academy, Dance Classes, Colombo, Sri Lanka" name="keywords">
+    <meta content="Join Just Dance Dancing Academy for the best dance classes in Colombo. We offer a wide range of styles for all ages and levels." name="description">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -57,11 +57,11 @@
             <div class="row g-4 align-items-center">
                 <div class="col-md-6 text-center text-md-start mb-md-0">
                     <span class="text-white"><a href="#" class="border-bottom text-white text-decoration-none"><i
-                                class="fas fa-copyright text-light me-2"></i>Just Dance</a>, All right
+                                class="fas fa-copyright text-light me-2"></i>Just Dance Dancing Academy</a>, All right
                         reserved.</span>
                 </div>
                 <div class="col-md-6 text-center text-md-end text-white">
-                    <p class="mb-0">Designed By <a class="border-bottom text-white" href="#">Sameera Creations</a></p>
+                    <p class="mb-0">Designed By <a class="border-bottom text-white" href="https://github.com/samee2001">Sameera Creations</a></p>
                 </div>
             </div>
         </div>

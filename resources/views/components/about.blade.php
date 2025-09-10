@@ -8,11 +8,11 @@
                 </div>
             </div>
             <div class="col-lg-7 wow fadeInRight" data-wow-delay="0.3s">
-                <h4 class="text-secondary sub-title fw-bold">about The Dance School</h4>
-                <h1 class="display-3 mb-4"><strong class="text-primary">JustDance</strong>, We have been teaching dance since 2001</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint commodi alias, eius incidunt similique exercitationem magni quod recusandae maiores ducimus non porro neque odio explicabo, doloribus deleniti rem sequi adipisci sed ab qui dolorem. Optio sint eius illum consequuntur. Odit.
+                <h4 class="text-secondary sub-title fw-bold">About The Dance School</h4>
+                <h1 class="display-3 mb-4"><strong class="text-primary">Just Dance Dancing Academy</strong>, We have been teaching dance since 2001</h1>
+                <p>Welcome to Just Dance Dancing Academy, a place where rhythm, passion, and community come together. Since our founding in 2001, we have been dedicated to providing high-quality dance education in a supportive and inspiring environment.
                 </p>
-                <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore illum nemo deserunt reiciendis perferendis incidunt ullam expedita dolor, voluptas repellat necessitatibus dolore repellendus dolorum, voluptate dolorem. Debitis quis ipsa ullam neque corrupti maxime ad magni, tempore, aperiam rerum, perspiciatis fuga.
+                <p class="mb-4">Our experienced instructors are passionate about dance and are committed to helping students of all ages and skill levels achieve their full potential. Whether you are a beginner taking your first steps or an experienced dancer looking to refine your technique, we have a class for you.
                 </p>
                 <a class="btn btn-primary rounded-pill text-white py-3 px-5" href="#">Learn More</a>
             </div>

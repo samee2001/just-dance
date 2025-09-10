@@ -111,8 +111,8 @@
                         <div class="d-flex align-items-center mb-5">
                             <div class="mb-3"><i class="fa fa-home fa-2x text-primary"></i></div>
                             <div class="ms-4">
-                                <h4>Addresses</h4>
-                                <p class="mb-0">123 ranking Street, New York, USA</p>
+                                <h4>Address</h4>
+                                <p class="mb-0">123 Rhythm Street, Colombo, Sri Lanka</p>
                             </div>
                         </div>
 
@@ -120,16 +120,16 @@
                             <div class="mb-3"><i class="fa fa-phone-alt fa-2x text-primary"></i></div>
                             <div class="ms-4">
                                 <h4>Mobile</h4>
-                                <p class="mb-0">+012 345 67890</p>
-                                <p class="mb-0">+012 345 67890</p>
+                                <p class="mb-0">+94 11 234 5678</p>
+                                <p class="mb-0">+94 77 876 5432</p>
                             </div>
                         </div>
                         <div class="d-flex align-items-center mb-5">
                             <div class="mb-3"><i class="fa fa-envelope-open fa-2x text-primary"></i></div>
                             <div class="ms-4">
                                 <h4>Email</h4>
-                                <p class="mb-0">info@example.com</p>
-                                <p class="mb-0">info@example.com</p>
+                                <p class="mb-0">info@justdance.lk</p>
+                                <p class="mb-0">contact@justdance.lk</p>
                             </div>
                         </div>
                         <div class="d-flex align-items-center">
