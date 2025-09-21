@@ -7,7 +7,7 @@
     </div>
     <div class="rounded-bottom border border-top-0 p-4">
         <a href="#" class="h4 mb-3 d-block">{{ $title }}</a>
-        <p class="mb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni vero excepturi blanditiis quidem</p>
+        <p class="mb-3">Learn from our experienced instructors in a fun and supportive environment. All skill levels are welcome.</p>
         <a class="btn btn-primary rounded-pill text-white py-2 px-4" href="#">Read More</a>
     </div>
 </div>

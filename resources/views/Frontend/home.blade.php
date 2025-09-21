@@ -50,9 +50,6 @@
                 <x-training-item delay="0.1s" image="service-1.jpg" number="01" title="Dance Theater" />
                 <x-training-item delay="0.3s" image="service-3.jpg" number="02" title="Personalized Learning" />
                 <x-training-item delay="0.5s" image="service-2.jpg" number="03" title="Convenient Dancing" />
-                <x-training-item delay="0.7s" image="service-4.jpg" number="04" title="Dance Theater" />
-                <x-training-item delay="0.9s" image="service-3.jpg" number="05" title="Personalized Learning" />
-                <x-training-item delay="1.1s" image="service-2.jpg" number="06" title="Convenient Dancing" />
             </div>
         </div>
     </div>
@@ -94,171 +91,198 @@
             </div>
             <div class="row g-4 justify-content-start">
                 <x-event-item delay="0.1s" image="service-1.jpg" date="JAN 20" time="08:00AM - 10:00PM" location="New York"
-                    title="Open House - Springs Dance" />
+                    title="Open House - Springs Dance"
+                    description="Discover the elegance of contemporary dance with our expert instructors. Perfect for beginners and intermediates looking to explore fluid movements and storytelling through dance." />
                 <x-event-item delay="0.3s" image="service-2.jpg" date="JUN 30" time="08:00AM - 10:00PM" location="New York"
-                    title="Open House And Registration" />
+                    title="Open House And Registration"
+                    description="Join our summer dance intensive! Register for classes in ballet, hip-hop, and salsa. Meet fellow dancers and get a sneak peek at our exciting season lineup." />
                 <x-event-item delay="0.5s" image="service-3.jpg" date="MAY 15" time="08:00AM - 10:00PM" location="New York"
-                    title="Open House Morris Dance" />
+                    title="Open House Morris Dance"
+                    description="Experience the lively tradition of Morris dance. Learn traditional English folk steps, meet our performance team, and enjoy live music demonstrations." />
                 <x-event-item delay="0.7s" image="service-4.jpg" date="APR 2" time="08:00AM - 10:00PM" location="New York"
-                    title="Open House Dance Studio" />
+                    title="Open House Dance Studio"
+                    description="Tour our state-of-the-art facilities and meet our world-class faculty. Try free mini-classes in jazz, tap, and modern dance during this special open house." />
                 <x-event-item delay="0.9s" image="service-1.jpg" date="JAN 20" time="08:00AM - 10:00PM" location="Sri Lanka"
-                    title="Open House - Springs Dance" />
+                    title="Open House - Springs Dance"
+                    description="Celebrate the New Year with our tropical dance festival! Experience Sri Lankan traditional dance alongside contemporary styles in a vibrant cultural celebration." />
                 <x-event-item delay="1.1s" image="service-2.jpg" date="JUN 30" time="08:00AM - 10:00PM" location="India"
-                    title="Open House And Registration" />
+                    title="Open House And Registration"
+                    description="Dive into the rich world of Indian classical dance. Learn Bharatanatyam basics, meet our guest artists from Delhi, and register for our monsoon dance workshop series." />
             </div>
         </div>
-    </div>
-    <!-- Events End -->
+        <!-- Events End -->
 
 
 
 
 
-    <!-- Team Start -->
-    <div class="container-fluid team pb-5">
-        <div class="container pb-5">
-            <div class="pb-5">
-                <h4 class="text-secondary sub-title fw-bold wow fadeInUp" data-wow-delay="0.1s">Dance Teachers</h4>
-                <h1 class="display-2 mb-0 wow fadeInUp" data-wow-delay="0.3s">Our Professional Instructor</h1>
-            </div>
-            <div class="team-carousel owl-carousel pt-5 wow fadeInUp" data-wow-delay="0.1s">
-                <x-team-item delay="0.1s" image="team-1.jpg" name="Emily Ava" title="Instructor" titleColor="white" />
-                <x-team-item delay="0.3s" image="team-2.jpg" name="James Anderson" title="Instructor" titleColor="white" />
-                <x-team-item delay="0.5s" image="team-3.jpg" name="Json Roy" title="Instructor" titleColor="white" />
+        <!-- Team Start -->
+        <div class="container-fluid team pb-5">
+            <div class="container pb-5">
+                <div class="pb-5">
+                    <h4 class="text-secondary sub-title fw-bold wow fadeInUp" data-wow-delay="0.1s">Dance Teachers</h4>
+                    <h1 class="display-2 mb-0 wow fadeInUp" data-wow-delay="0.3s">Our Professional Instructor</h1>
+                </div>
+                <div class="team-carousel owl-carousel pt-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <x-team-item delay="0.1s" image="team-1.jpg" name="Emily Ava" title="Instructor" titleColor="white" />
+                    <x-team-item delay="0.3s" image="team-2.jpg" name="James Anderson" title="Instructor"
+                        titleColor="white" />
+                    <x-team-item delay="0.5s" image="team-3.jpg" name="Json Roy" title="Instructor" titleColor="white" />
 
-                <x-team-item delay="0.9s" image="team-4.jpg" name="Jehan Watson" title="Instructor" titleColor="white" />
+                    <x-team-item delay="0.9s" image="team-4.jpg" name="Jehan Watson" title="Instructor"
+                        titleColor="white" />
+                </div>
             </div>
         </div>
-    </div>
-    <!-- Team End -->
+        <!-- Team End -->
 
-    <!-- Video Gallery Start -->
-    <div class="container-fluid gallery pb-5">
-        <div class="container pb-5">
-            <div class="pb-5">
-                <h4 class="text-secondary sub-title fw-bold wow fadeInUp" data-wow-delay="0.1s">Dance Gallery</h4>
-                <h1 class="display-2 mb-0 wow fadeInUp" data-wow-delay="0.3s">Our Dance class gallery</h1>
-            </div>
-            <div class="tab-class wow fadeInUp" data-wow-delay="0.1s">
-                <ul class="nav nav-pills d-inline-flex justify-content-center pb-4">
-                    <x-gallery-tab-item href="#GalleryTab-1" text="All" :active="true" />
-                    <x-gallery-tab-item href="#GalleryTab-2" text="Dance Practice" />
-                    <x-gallery-tab-item href="#GalleryTab-3" text="Dance Training" />
-                    <x-gallery-tab-item href="#GalleryTab-4" text="Dance Growth" />
-                    <x-gallery-tab-item href="#GalleryTab-5" text="Dance Improvement" />
-                </ul>
-                <div class="tab-content">
-                    <div id="GalleryTab-1" class="tab-pane fade show p-0 active">
-                        <div class="row g-2">
-                            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2 wow fadeInUp" data-wow-delay="0.1s">
-                                <x-video-item image="class-1.jpg" videoUrl="https://www.youtube.com/embed/DWRcNpR6Kdc" />
+        <!-- Video Gallery Start -->
+        <div class="container-fluid gallery pb-5">
+            <div class="container pb-5">
+                <div class="pb-5">
+                    <h4 class="text-secondary sub-title fw-bold wow fadeInUp" data-wow-delay="0.1s">Dance Gallery</h4>
+                    <h1 class="display-2 mb-0 wow fadeInUp" data-wow-delay="0.3s">Our Dance class gallery</h1>
+                </div>
+                <div class="tab-class wow fadeInUp" data-wow-delay="0.1s">
+                    <ul class="nav nav-pills d-inline-flex justify-content-center pb-4">
+                        <x-gallery-tab-item href="#GalleryTab-1" text="All" :active="true" />
+                        <x-gallery-tab-item href="#GalleryTab-2" text="Dance Practice" />
+                        <x-gallery-tab-item href="#GalleryTab-3" text="Dance Training" />
+                        <x-gallery-tab-item href="#GalleryTab-4" text="Dance Growth" />
+                        <x-gallery-tab-item href="#GalleryTab-5" text="Dance Improvement" />
+                    </ul>
+                    <div class="tab-content">
+                        <div id="GalleryTab-1" class="tab-pane fade show p-0 active">
+                            <div class="row g-2">
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2 wow fadeInUp" data-wow-delay="0.1s">
+                                    <x-video-item image="class-1.jpg"
+                                        videoUrl="https://www.youtube.com/embed/DWRcNpR6Kdc" />
+                                </div>
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                                    <x-video-item image="class-2.jpg"
+                                        videoUrl="https://www.youtube.com/embed/DWRcNpR6Kdc" />
+                                </div>
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2 wow fadeInUp" data-wow-delay="0.5s">
+                                    <x-video-item image="class-3.jpg"
+                                        videoUrl="https://www.youtube.com/embed/DWRcNpR6Kdc" />
+                                </div>
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                                    <x-video-item image="class-3.jpg"
+                                        videoUrl="https://www.youtube.com/embed/DWRcNpR6Kdc" />
+                                </div>
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2 wow fadeInUp" data-wow-delay="0.9s">
+                                    <x-video-item image="class-1.jpg"
+                                        videoUrl="https://www.youtube.com/embed/DWRcNpR6Kdc" />
+                                </div>
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2 wow fadeInUp" data-wow-delay="0.1s">
+                                    <x-video-item image="class-2.jpg"
+                                        videoUrl="https://www.youtube.com/embed/DWRcNpR6Kdc" />
+                                </div>
+                                <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                                    <x-video-item image="class-3.jpg"
+                                        videoUrl="https://www.youtube.com/embed/DWRcNpR6Kdc" />
+                                </div>
+                                <div class="col-sm-6 col-md-6 col-lg-3 col-xl-2 wow fadeInUp" data-wow-delay="0.5s">
+                                    <x-video-item image="class-3.jpg"
+                                        videoUrl="https://www.youtube.com/embed/DWRcNpR6Kdc" />
+                                </div>
+                                <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                                    <x-video-item image="class-1.jpg"
+                                        videoUrl="https://www.youtube.com/embed/DWRcNpR6Kdc" />
+                                </div>
+                                <div class="col-sm-6 col-md-6 col-lg-3 col-xl-2 wow fadeInUp" data-wow-delay="0.9s">
+                                    <x-video-item image="class-3.jpg"
+                                        videoUrl="https://www.youtube.com/embed/DWRcNpR6Kdc" />
+                                </div>
                             </div>
-                            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
-                                <x-video-item image="class-2.jpg" videoUrl="https://www.youtube.com/embed/DWRcNpR6Kdc" />
-                            </div>
-                            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2 wow fadeInUp" data-wow-delay="0.5s">
-                                <x-video-item image="class-3.jpg" videoUrl="https://www.youtube.com/embed/DWRcNpR6Kdc" />
-                            </div>
-                            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
-                                <x-video-item image="class-3.jpg" videoUrl="https://www.youtube.com/embed/DWRcNpR6Kdc" />
-                            </div>
-                            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2 wow fadeInUp" data-wow-delay="0.9s">
-                                <x-video-item image="class-1.jpg" videoUrl="https://www.youtube.com/embed/DWRcNpR6Kdc" />
-                            </div>
-                            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2 wow fadeInUp" data-wow-delay="0.1s">
-                                <x-video-item image="class-2.jpg" videoUrl="https://www.youtube.com/embed/DWRcNpR6Kdc" />
-                            </div>
-                            <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
-                                <x-video-item image="class-3.jpg" videoUrl="https://www.youtube.com/embed/DWRcNpR6Kdc" />
-                            </div>
-                            <div class="col-sm-6 col-md-6 col-lg-3 col-xl-2 wow fadeInUp" data-wow-delay="0.5s">
-                                <x-video-item image="class-3.jpg" videoUrl="https://www.youtube.com/embed/DWRcNpR6Kdc" />
-                            </div>
-                            <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
-                                <x-video-item image="class-1.jpg" videoUrl="https://www.youtube.com/embed/DWRcNpR6Kdc" />
-                            </div>
-                            <div class="col-sm-6 col-md-6 col-lg-3 col-xl-2 wow fadeInUp" data-wow-delay="0.9s">
-                                <x-video-item image="class-3.jpg" videoUrl="https://www.youtube.com/embed/DWRcNpR6Kdc" />
+                        </div>
+                        <div id="GalleryTab-2" class="tab-pane fade show p-0">
+                            <div class="row g-2">
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2 wow fadeInUp" data-wow-delay="0.1s">
+                                    <x-video-item image="class-1.jpg"
+                                        videoUrl="https://www.youtube.com/embed/DWRcNpR6Kdc" />
+                                </div>
+                                <div class="col-sm-6 col-md-6 col-lg-3 col-xl-2 wow fadeInUp" data-wow-delay="0.3s">
+                                    <x-video-item image="class-3.jpg"
+                                        videoUrl="https://www.youtube.com/embed/DWRcNpR6Kdc" />
+                                </div>
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2 wow fadeInUp" data-wow-delay="0.5s">
+                                    <x-video-item image="class-2.jpg"
+                                        videoUrl="https://www.youtube.com/embed/DWRcNpR6Kdc" />
+                                </div>
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2 wow fadeInUp" data-wow-delay="0.7s">
+                                    <x-video-item image="class-2.jpg"
+                                        videoUrl="https://www.youtube.com/embed/DWRcNpR6Kdc" />
+                                </div>
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2 wow fadeInUp" data-wow-delay="0.9s">
+                                    <x-video-item image="class-2.jpg"
+                                        videoUrl="https://www.youtube.com/embed/DWRcNpR6Kdc" />
+                                </div>
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2 wow fadeInUp" data-wow-delay="0.1s">
+                                    <x-video-item image="class-2.jpg"
+                                        videoUrl="https://www.youtube.com/embed/DWRcNpR6Kdc" />
+                                </div>
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2 wow fadeInUp" data-wow-delay="0.3s">
+                                    <x-video-item image="class-2.jpg"
+                                        videoUrl="https://www.youtube.com/embed/DWRcNpR6Kdc" />
+                                </div>
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2 wow fadeInUp" data-wow-delay="0.5s">
+                                    <x-video-item image="class-2.jpg"
+                                        videoUrl="https://www.youtube.com/embed/DWRcNpR6Kdc" />
+                                </div>
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2 wow fadeInUp" data-wow-delay="0.7s">
+                                    <x-video-item image="class-2.jpg"
+                                        videoUrl="https://www.youtube.com/embed/DWRcNpR6Kdc" />
+                                </div>
+                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2 wow fadeInUp" data-wow-delay="0.9s">
+                                    <x-video-item image="class-2.jpg"
+                                        videoUrl="https://www.youtube.com/embed/DWRcNpR6Kdc" />
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div id="GalleryTab-2" class="tab-pane fade show p-0">
-                        <div class="row g-2">
-                            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2 wow fadeInUp" data-wow-delay="0.1s">
-                                <x-video-item image="class-1.jpg" videoUrl="https://www.youtube.com/embed/DWRcNpR6Kdc" />
-                            </div>
-                            <div class="col-sm-6 col-md-6 col-lg-3 col-xl-2 wow fadeInUp" data-wow-delay="0.3s">
-                                <x-video-item image="class-3.jpg" videoUrl="https://www.youtube.com/embed/DWRcNpR6Kdc" />
-                            </div>
-                            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2 wow fadeInUp" data-wow-delay="0.5s">
-                                <x-video-item image="class-2.jpg" videoUrl="https://www.youtube.com/embed/DWRcNpR6Kdc" />
-                            </div>
-                            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2 wow fadeInUp" data-wow-delay="0.7s">
-                                <x-video-item image="class-2.jpg" videoUrl="https://www.youtube.com/embed/DWRcNpR6Kdc" />
-                            </div>
-                            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2 wow fadeInUp" data-wow-delay="0.9s">
-                                <x-video-item image="class-2.jpg" videoUrl="https://www.youtube.com/embed/DWRcNpR6Kdc" />
-                            </div>
-                            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2 wow fadeInUp" data-wow-delay="0.1s">
-                                <x-video-item image="class-2.jpg" videoUrl="https://www.youtube.com/embed/DWRcNpR6Kdc" />
-                            </div>
-                            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2 wow fadeInUp" data-wow-delay="0.3s">
-                                <x-video-item image="class-2.jpg" videoUrl="https://www.youtube.com/embed/DWRcNpR6Kdc" />
-                            </div>
-                            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2 wow fadeInUp" data-wow-delay="0.5s">
-                                <x-video-item image="class-2.jpg" videoUrl="https://www.youtube.com/embed/DWRcNpR6Kdc" />
-                            </div>
-                            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2 wow fadeInUp" data-wow-delay="0.7s">
-                                <x-video-item image="class-2.jpg" videoUrl="https://www.youtube.com/embed/DWRcNpR6Kdc" />
-                            </div>
-                            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2 wow fadeInUp" data-wow-delay="0.9s">
-                                <x-video-item image="class-2.jpg" videoUrl="https://www.youtube.com/embed/DWRcNpR6Kdc" />
-                            </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Video -->
+        <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Youtube Video</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- 16:9 aspect ratio -->
+                        <div class="ratio ratio-16x9">
+                            <iframe class="embed-responsive-item" src="" id="video" allowfullscreen
+                                allowscriptaccess="always" allow="autoplay"></iframe>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+        <!-- Video Gallery End -->
 
-    <!-- Modal Video -->
-    <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content rounded-0">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Youtube Video</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <!-- Testimonial Start -->
+        <div class="container-fluid testimonial pb-5">
+            <div class="container pb-5">
+                <div class="pb-5">
+                    <h4 class="text-secondary sub-title fw-bold wow fadeInUp" data-wow-delay="0.1s">OUR CLIENTS RIVIEWS</h4>
+                    <h1 class="display-2 mb-0 wow fadeInUp" data-wow-delay="0.3s">What Our Clients Say</h1>
                 </div>
-                <div class="modal-body">
-                    <!-- 16:9 aspect ratio -->
-                    <div class="ratio ratio-16x9">
-                        <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
-                            allow="autoplay"></iframe>
-                    </div>
+                <div class="owl-carousel testimonial-carousel pt-5 wow fadeInUp" data-wow-delay="0.2s">
+                    <x-testimonial-item image="testimonial-1.jpg" name="John" profession="Profession" :rating="4"
+                        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitati eiusmod tempor incididunt." />
+                    <x-testimonial-item image="testimonial-2.jpg" name="Andrea" profession="Profession" :rating="3"
+                        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitati eiusmod tempor incididunt." />
+                    <x-testimonial-item image="testimonial-3.jpg" name="Michael" profession="Profession" :rating="4"
+                        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitati eiusmod tempor incididunt." />
+                    <x-testimonial-item image="testimonial-3.jpg" name="Hendra" profession="Profession" :rating="1"
+                        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitati eiusmod tempor incididunt." />
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Video Gallery End -->
-
-    <!-- Testimonial Start -->
-    <div class="container-fluid testimonial pb-5">
-        <div class="container pb-5">
-            <div class="pb-5">
-                <h4 class="text-secondary sub-title fw-bold wow fadeInUp" data-wow-delay="0.1s">OUR CLIENTS RIVIEWS</h4>
-                <h1 class="display-2 mb-0 wow fadeInUp" data-wow-delay="0.3s">What Our Clients Say</h1>
-            </div>
-            <div class="owl-carousel testimonial-carousel pt-5 wow fadeInUp" data-wow-delay="0.2s">
-                <x-testimonial-item image="testimonial-1.jpg" name="John" profession="Profession" :rating="4"
-                    content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitati eiusmod tempor incididunt." />
-                <x-testimonial-item image="testimonial-2.jpg" name="Andrea" profession="Profession" :rating="3"
-                    content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitati eiusmod tempor incididunt." />
-                <x-testimonial-item image="testimonial-3.jpg" name="Michael" profession="Profession" :rating="4"
-                    content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitati eiusmod tempor incididunt." />
-                <x-testimonial-item image="testimonial-3.jpg" name="Hendra" profession="Profession" :rating="1"
-                    content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitati eiusmod tempor incididunt." />
-            </div>
-        </div>
-    </div>
-    <!-- Testimonial End -->
+        <!-- Testimonial End -->
 @endsection

@@ -1,4 +1,4 @@
-@props(['delay', 'image', 'date', 'time', 'location', 'title'])
+@props(['delay', 'image', 'date', 'time', 'location', 'title','description'])
 
 <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="{{ $delay }}">
     <div class="event-item rounded">
@@ -15,8 +15,7 @@
         </div>
         <div class="border border-top-0 rounded-bottom p-4">
             <a href="#" class="h4 mb-3 d-block">{{ $title }}</a>
-            <p class="mb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni vero
-                excepturi blanditiis quidem</p>
+            <p class="mb-3">{{ $description }}</p>
             <a class="btn btn-primary rounded-pill text-white py-2 px-4" href="#">Watch Now</a>
         </div>
     </div>

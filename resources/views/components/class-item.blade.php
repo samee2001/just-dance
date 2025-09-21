@@ -6,8 +6,7 @@
     </div>
     <div class="rounded-bottom p-4">
         <a href="#" class="h4 mb-3 d-block">{{ $title }}</a>
-        <p class="mb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni vero excepturi
-            blanditiis quidem</p>
-        <a class="btn btn-primary rounded-pill text-white py-2 px-4" href="#">Explore Details</a>
+        <p class="mb-3">Join our vibrant dance classes and learn from the best. Perfect for all skill levels.</p>
+        <a class="btn btn-primary rounded-pill text-white py-2 px-4 m-5" href="#">Explore Details</a>
     </div>
 </div>

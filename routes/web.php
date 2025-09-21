@@ -6,7 +6,7 @@ use App\Http\Controllers\SubscriptionController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('Frontend.home');
 });
 
 Route::get('/dashboard', function () {
@@ -19,9 +19,9 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-Route::get('/home', function () {
-    return view('Frontend.home');
-})->name('home');
+// Route::get('/home', function () {
+//     return view('Frontend.home');
+// })->name('home');
 
 Route::get('/about-us', function () {
     return view('Frontend.about');
