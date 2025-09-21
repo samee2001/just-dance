@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\SubscriptionController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -34,6 +35,15 @@ Route::get('/contact-us', function () {
     return view('Frontend.contact');
 });
 
+Route::get('/privacy-policy', function () {
+    return view('Frontend.privacy-policy');
+});
+
+Route::get('/classes', function () {
+    return view('Frontend.classes');
+})->name('classes');
+
 Route::post('/contact', [ContactController::class, 'store'])->name('contact.store');
+Route::post('/subscribe', [SubscriptionController::class, 'subscribe']);
 
 require __DIR__.'/auth.php';

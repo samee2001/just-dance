@@ -50,22 +50,24 @@
                 <div class="col-md-6 col-lg-6 col-xl-3">
                     <div class="footer-item d-flex flex-column">
                         <h4 class="text-white mb-4">Quick Links</h4>
-                        <a href="#" class="footer-link"> About Us</a>
-                        <a href="#" class="footer-link"> Classes</a>
-                        <a href="#" class="footer-link"> Privacy Policy</a>
-                        <a href="#" class="footer-link"> Terms & Conditions</a>
-                        <a href="#" class="footer-link"> Schedule</a>
-                        <a href="#" class="footer-link"> FAQ</a>
-                        <a href="#" class="footer-link"> Contact Us</a>
+                        <a href="{{ url('/about-us') }}" class="footer-link"> About Us</a>
+                        <a href="{{ url('/classes') }}" class="footer-link"> Classes</a>
+                        <a href="{{ url('/privacy-policy') }}" class="footer-link"> Privacy Policy</a>
+                        <a href="{{ url('/contact-us') }}" class="footer-link"> Contact Us</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-6 col-xl-3">
                     <div class="footer-item d-flex flex-column">
                         <div class="footer-item">
                             <h4 class="text-white mb-4">Newsletter</h4>
-                            <p class="text-white mb-3">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum
-                                dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit.</p>
-                            
+                            <p class="text-white mb-3">Subscribe to our newsletter to get the latest news and updates.</p>
+                            <form action="{{ url('/subscribe') }}" method="POST">
+                                @csrf
+                                <div class="input-group">
+                                    <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+                                    <button class="btn btn-primary" type="submit">Subscribe</button>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>

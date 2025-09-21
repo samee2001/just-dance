@@ -14,7 +14,7 @@
                 </p>
                 <p class="mb-4">Our experienced instructors are passionate about dance and are committed to helping students of all ages and skill levels achieve their full potential. Whether you are a beginner taking your first steps or an experienced dancer looking to refine your technique, we have a class for you.
                 </p>
-                <a class="btn btn-primary rounded-pill text-white py-3 px-5" href="#">Learn More</a>
+                
             </div>
         </div>
     </div>
