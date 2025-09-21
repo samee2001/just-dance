@@ -13,8 +13,10 @@
   ],
   "env": {
     "APP_ENV": "production",
+    "APP_NAME": "Laravel",
     "APP_DEBUG": "false",
-    "APP_URL": "",  
+    "APP_KEY": "base64:76D+A4xhNCRft+2C6O6opxsNGY6Cjwb5UwqJaLU7eyk=",
+    "APP_URL": "http://localhost",
     "APP_EVENTS_CACHE": "/tmp/events.php",
     "APP_PACKAGES_CACHE": "/tmp/packages.php",
     "APP_ROUTES_CACHE": "/tmp/routes.php",
@@ -23,6 +25,12 @@
     "CACHE_DRIVER": "array",
     "SESSION_DRIVER": "cookie",
     "LOG_CHANNEL": "stderr",
-    "QUEUE_CONNECTION": "sync"
+    "QUEUE_CONNECTION": "sync",
+    "DB_CONNECTION": "mysql",
+    "DB_HOST": "127.0.0.1",
+    "DB_PORT": "3306",
+    "DB_DATABASE": "db_just_dance",
+    "DB_USERNAME": "root",
+    "DB_PASSWORD": ""
   }
 }
